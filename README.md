@@ -11,5 +11,5 @@ according to official github
 - CRNN:./CRNN/exxpr2/best.pth
 ## intergrated demo.py for implement
 ./demo.py
-input path: ./data1/
-ouput csv: ./result.csv
+- input path: ./data1/
+- ouput csv: ./result.csv
