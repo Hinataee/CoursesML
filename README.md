@@ -8,7 +8,7 @@
 according to official github
 ## weight trained
 - yolo:./weights/yolov5_best.pth
-- CRNN:./CRNN/exxpr2/best.pth
+- CRNN:./CRNN/expr2/best.pth
 ## intergrated demo.py for implement
 ./demo.py
 - input path: ./data1/
