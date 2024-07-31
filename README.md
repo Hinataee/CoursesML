@@ -17,9 +17,10 @@ according to official github
 
 # USAGE
 - Usage:
+  
   ```python generate.py -d <path> -s <path> -f <format>```
-
 - Options:
+  
 	-d, --data_path		指明数据路径
 	-s, --save_path		指明存放路径
 	-f, --format		指明处理文件类型，备选格式{bench, aig}
