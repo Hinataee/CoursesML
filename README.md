@@ -17,8 +17,9 @@ according to official github
 
 # USAGE
 - Usage:
-  
-  ```python generate.py -d <path> -s <path> -f <format>```
+  ```
+  python generate.py -d <path> -s <path> -f <format>
+  ```
 - Options:
   
 	-d, --data_path		指明数据路径
@@ -31,10 +32,13 @@ according to official github
 
 .aiger格式的文件需要转化成.aig格式的文件才可以使用
 
-参考转化指令：```for file in *.aiger; do mv -- "$file" "${file%.aiger}.aig"; done```
+参考转化指令：
+```for file in *.aiger; do mv -- "$file" "${file%.aiger}.aig"; done```
 
 # EXAMPLE
-```python generate.py -d ~/AIGDataset/all_case/aig -s ~/AIGDataset/all_case -f aig```
+```
+python generate.py -d ~/AIGDataset/all_case/aig -s ~/AIGDataset/all_case -f aig
+```
 
 Description: 此命令将读取~/AIGDataset/all_case/aig/xxx.aig所有文件，并将结果存储在~/AIGDataset/all_case/xxx/counting/中
 
