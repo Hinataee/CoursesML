@@ -35,11 +35,17 @@ according to official github
 
 # EXAMPLE
 ```python generate.py -d ~/AIGDataset/all_case/aig -s ~/AIGDataset/all_case -f aig```
+
 Description: 此命令将读取~/AIGDataset/all_case/aig/xxx.aig所有文件，并将结果存储在~/AIGDataset/all_case/xxx/counting/中
+
 其中在counting目录下有：
+
 .
+
 ├── signed_edge.csv
+
 ├── node-type.csv
+
 └── label.csv
 
 # File Description
