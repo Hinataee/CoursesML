@@ -28,14 +28,12 @@ according to official github
   
 	-f, --format		指明处理文件类型，备选格式{bench, aig}
 
-- Note:
+- Note:.aiger格式的文件需要转化成.aig格式的文件才可以使用
 
-.aiger格式的文件需要转化成.aig格式的文件才可以使用
-
-参考转化指令：
-```
-for file in *.aiger; do mv -- "$file" "${file%.aiger}.aig"; done
-```
+	参考转化指令：
+	```
+	for file in *.aiger; do mv -- "$file" "${file%.aiger}.aig"; done
+	```
 
 # EXAMPLE
 ```
