@@ -16,7 +16,8 @@ according to official github
 
 
 # USAGE
-- Usage: python generate.py -d <path> -s <path> -f <format>
+- Usage:
+  ```python generate.py -d <path> -s <path> -f <format>```
 
 - Options:
 	-d, --data_path		指明数据路径
@@ -25,7 +26,7 @@ according to official github
 
 - Note:
 .aiger格式的文件需要转化成.aig格式的文件才可以使用
-参考转化指令：for file in *.aiger; do mv -- "$file" "${file%.aiger}.aig"; done
+参考转化指令：```for file in *.aiger; do mv -- "$file" "${file%.aiger}.aig"; done```
 
 # EXAMPLE
 python generate.py -d ~/AIGDataset/all_case/aig -s ~/AIGDataset/all_case -f aig
