@@ -33,7 +33,9 @@ according to official github
 .aiger格式的文件需要转化成.aig格式的文件才可以使用
 
 参考转化指令：
-```for file in *.aiger; do mv -- "$file" "${file%.aiger}.aig"; done```
+```
+for file in *.aiger; do mv -- "$file" "${file%.aiger}.aig"; done
+```
 
 # EXAMPLE
 ```
@@ -43,15 +45,12 @@ python generate.py -d ~/AIGDataset/all_case/aig -s ~/AIGDataset/all_case -f aig
 Description: 此命令将读取~/AIGDataset/all_case/aig/xxx.aig所有文件，并将结果存储在~/AIGDataset/all_case/xxx/counting/中
 
 其中在counting目录下有：
-
+```
 .
-
 ├── signed_edge.csv
-
 ├── node-type.csv
-
 └── label.csv
-
+```
 # File Description
 - signed_edge.csv: 每一行表示{起始id, 终点id, 1/-1}，其中1表示没有not的边，-1表示有not的边
 - node-type.csv: 0-PI, 1-AND, 2-PO，按节点id排列
