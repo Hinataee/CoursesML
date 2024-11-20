@@ -39,7 +39,7 @@ according to official github
 python generate_labels.py -d ~/AIGDataset/all_case/aig -s ~/AIGDataset/all_case -f aig
 ```
 
-Explanation: This command reads all files in `~/AIGDataset/all_case/aig`（including all corresponding files in subdirectories, e.g., `~/AIGDataset/all_case/aig[/a/b/xxx.aig]`）and saves the results in `~/AIGDataset/all_case[/a/b/xxx/counting_simplify_PO/]`. Meanwhile, an `abc.log` file will be created in the specified save_path to record the output logs of abc.
+Explanation: This command reads all files in `~/AIGDataset/all_case/aig`（including all corresponding files in subdirectories, e.g., `~/AIGDataset/all_case/aig[/a/b/xxx.aig]`）and saves the results in corresponding subdirectories, e.g., `~/AIGDataset/all_case[/a/b/xxx/counting_simplify_PO/]`. Meanwhile, an `abc.log` file will be created in the specified save_path to record the output logs of abc.
 
 In the `counting_simplify_PO` directory, the following files will be generated:
 ```
